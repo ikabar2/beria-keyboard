@@ -9,15 +9,27 @@ const backButton = document.getElementById('backButton');
 const output = document.getElementById('output');
 
 // the lowercase Zaghawa alphabet characters 
+//const zaghawaCharactersLower = [
+//["ⴰ", "ⴱ", "ⴲ", "ⴳ", "ⴴ", "ⴵ", "ⴶ", "ⴷ", "ⴸ", "ⴹ"],
+//["ⴺ", "ⴻ", "ⵅ", "ⴼ", "ⵇ", "ⵈ", "ⵉ", "ⵊ", "ⵋ", "ⵌ"],
+//["ⴲ", "ⴵ", "ⴼ", "ⴽ", "ⴾ", "ⴿ",
+// "ⵀ", "ⵁ", "ⵂ", "ⵃ",
+// "ⵄ", "ⵅ", "ⵆ", "ⵇ", "ⵈ", "ⵉ"
+//  ]
+//];
 const zaghawaCharactersLower = [
     ["ⴰ", "ⴱ", "ⴲ", "ⴳ", "ⴴ", "ⴵ", "ⴶ", "ⴷ", "ⴸ", "ⴹ"],
     ["ⴺ", "ⴻ", "ⵅ", "ⴼ", "ⵇ", "ⵈ", "ⵉ", "ⵊ", "ⵋ", "ⵌ"],
-    ["ⴲ", "ⴵ", "ⴼ", "ⴽ", "ⴾ", "ⴿ",
-        "ⵀ", "ⵁ", "ⵂ", "ⵃ",
-        "ⵄ", "ⵅ", "ⵆ", "ⵇ", "ⵈ", "ⵉ"
-    ]
+    ["ⴲ", "ⴵ", "ⴼ", "ⴽ", "ⴾ", "ⴿ", "ⵀ", "ⵁ", "ⵂ", "ⵃ", "ⵄ", "ⵅ", "ⵆ", "ⵇ", "ⵈ", "ⵉ"]
 ];
 
+// Example: Accessing a character
+const character = zaghawaCharactersLower[1][3]; // This would give you the character at row 2, column 4 (ⴼ in this case)
+
+// Printing the entire array for reference
+for (let row = 0; row < zaghawaCharactersLower.length; row++) {
+    console.log(zaghawaCharactersLower[row].join(' '));
+}
 
 // Function to load the lowercase Zaghawa alphabet characters
 function loadCharacters() {
