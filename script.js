@@ -11,8 +11,8 @@ const output = document.getElementById('output');
 // the lowercase Zaghawa alphabet characters 
 const zaghawaCharactersLower = [
     "ⴰ", "ⴱ", "ⴲ", "ⴳ", "ⴴ", "ⴵ", "ⴶ", "ⴷ", "ⴸ", "ⴹ",
-    "ⴺ", "ⴻ", "ⴼ", "ⵇ", "ⵉ", "ⵊ", "ⵋ", "ⵌ",
-    "ⴲ", "ⴵ", "ⴼ", "ⴽ", "ⴾ", "ⴿ",
+    "ⴺ", "ⴻ", "ⴼ", "ⵊ", "ⵋ", "ⵌ",
+    "ⴵ", "ⴼ", "ⴽ", "ⴾ", "ⴿ",
     "ⵀ", "ⵁ", "ⵂ", "ⵃ",
     "ⵄ", "ⵅ", "ⵆ", "ⵇ", "ⵈ", "ⵉ"
 
