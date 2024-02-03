@@ -11,12 +11,12 @@ h1 {
 }
 
 #inputText {
-    width: 80%;
+    width: 60%;
     height: 100px;
 }
 
 #keyboard {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 button {
